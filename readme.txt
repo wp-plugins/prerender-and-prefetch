@@ -7,8 +7,8 @@ Author: FranTorres
 Author URI: http://frantorres.es/
 Requires at least: 3.1
 Tested up to: 3.4.2
-Version: 0.93
-Stable tag: 0.93
+Version: 0.94
+Stable tag: 0.94
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: prerender, prefetch, preload, speed, load, page
