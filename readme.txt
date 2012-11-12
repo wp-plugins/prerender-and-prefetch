@@ -17,9 +17,16 @@ Puts Prerender and Prefetch tag in the page. Allowing compatible navigators to d
 
 == Description ==
 
-¿What is Prerender and Prefetch? Nice question. It's a new-navigators technique (ok i'm a liar, Mozilla do it from 2003!) that loads in background the next page you believe the visitor is going to visit.
+¿What is [Prerender](https://developers.google.com/chrome/whitepapers/prerender) and [Prefetch](http://en.wikipedia.org/wiki/Link_prefetching)? Nice question. It's a new-navigators technique (ok i'm a liar, Mozilla do it from 2003!) that loads in background the next page you believe the visitor is going to visit.
 
 This plugin puts the required metatag in your WordPress pages, based on settings you can change, allowing those compatible navigators to do a pre-load of the next page. When the visitor try to visit that page Boom! it just appears without need to wait for it!
+
+= Testing Prerender and Prefetch Support in your navigator =
+You can [test here Chrome's prerender](http://prerender-test.appspot.com/) with any page.
+
+= Install and after install =
+*When installing, remember to set the server's load limit on settings.
+*This is a plugin in development, feel free to ask questions in "Support" section and colaborate with it.
 
 == Installation ==
 
@@ -32,12 +39,13 @@ This plugin puts the required metatag in your WordPress pages, based on settings
 
 = What is Prerender and Prefetch  =
 
-They are techniques to do a preload in background of another page, the logical use to this is load the page is going most-probably to be the next page the visitor is going to go. So the visitor don't have to wait for the load of that page, it was already loaded i background and just shows up!.
+They are techniques to do a preload in background of another page, the logical use to this is load the page is going most-probably to be the next page the visitor is going to go. So the visitor don't have to wait for the load of that page, it was already loaded in background and just shows up!.
 
 
 == Screenshots ==
 
-No applicable screenshots
+1. Settings menu, remember to set the "Server load to stop" parameter
+2. When you go from one page to another that is prerender it takes like... ¿300ms? it's just a blink (Test done with Chrome's Browser with prerender activated in browser and in page, configured for that link to being prerendered (be in blog page->post number 1), and with the plugin not limited by server load.)
 
 == Changelog ==
 
